@@ -8,7 +8,6 @@ In this milestone, you are asked to implement a basic interpreter using JAVA. Yo
 (d) Take text input from the user. <br>
 (e) Reading data from memory. (f) Writing data to memory. <br>
 
-
 ## Milestone 2
 
 In this milestone, you are asked to create these three scheduling algorithms using JAVA:<br>
