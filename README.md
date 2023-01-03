@@ -1,5 +1,6 @@
-Implemented the different memory management algorithms simulating the impact of paging, fragmentation, and segmentation. Coded the different processes scheduling algorithms \
-1. First Come First Serve (FCFS): Processes are executed on first come, first serve basis (queue, based on arrival time).<br>
-2. Shortest Job First (non-preemptive): Processes are executed depending on their execution time, the shortest process being the first to execute. The processor should know in advance how much time each process needs for execution, so that it can order the processes accordingly.<br>
-3. Round Robin: Each process is assigned a fixed time slot in a cyclic way.<br>
+Implemented the different memory management algorithms simulating the impact of paging, fragmentation, and segmentation. Coded the different processes scheduling algorithms:
 
+
+1. First-Come, First-Served (FCFS): This is a scheduling algorithm in which the CPU is allocated to the process that has been waiting in the queue the longest. This algorithm is simple to implement, but it can lead to poor performance for processes with longer run times, as they may have to wait a long time to be allocated the CPU. Basically Processes are executed on first come, first serve basis (queue, based on arrival time).<br>
+2. Shortest Job First: This is a scheduling algorithm in which the CPU is allocated to the process with the shortest estimated run time. This algorithm aims to minimize the average turnaround time for all processes by giving priority to shorter processes. It can lead to higher efficiency, but it may not always be fair to processes with longer run times.<br>
+3. Round Robin: This is a scheduling algorithm in which the CPU is allocated to each process in the queue for a fixed amount of time, called a time quantum. Once the time quantum expires, the process is moved to the end of the queue and the CPU is allocated to the next process in the queue. This algorithm is effective at preventing a single process from monopolizing the CPU, but it can lead to poor performance for processes with longer run times.Basically each process is assigned a fixed time slot in a cyclic way.<br>
